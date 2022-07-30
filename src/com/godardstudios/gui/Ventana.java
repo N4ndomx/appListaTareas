@@ -19,7 +19,7 @@ public class Ventana extends javax.swing.JFrame {
 
     ResourceBundle lenguage = ResourceBundle.getBundle(
             "com/godardstudios/lenguage/Lenguage", Locale.getDefault());
-
+    
     PanelPrincipal panel = new PanelPrincipal(lenguage);
 
     /**
